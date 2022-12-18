@@ -11,6 +11,7 @@ import FavouriteIcon from '@mui/icons-material/Favorite'
 import Card from './Components/CardComponent';
 import Cardcomponent from './Components/CardComponent';
 import MediaCard from './Components/MediaCard';
+import ComplexCard from './Components/ComplexCard';
 
 function App() {
 
@@ -41,8 +42,9 @@ function App() {
       </ButtonGroup>
       {/* <p className='btnState'>State:{state}</p> */}
     </div>
-    <Cardcomponent/>
+    {/* <Cardcomponent/> */}
     <MediaCard/>
+    <ComplexCard/>
     </>
   )
 }
