@@ -8,6 +8,9 @@ import { useState } from 'react';
 import CheckBox  from '@mui/material/Checkbox';
 import FormControlLabel from '@mui/material/FormControlLabel'
 import FavouriteIcon from '@mui/icons-material/Favorite'
+import Card from './Components/CardComponent';
+import Cardcomponent from './Components/CardComponent';
+import MediaCard from './Components/MediaCard';
 
 function App() {
 
@@ -38,6 +41,8 @@ function App() {
       </ButtonGroup>
       {/* <p className='btnState'>State:{state}</p> */}
     </div>
+    <Cardcomponent/>
+    <MediaCard/>
     </>
   )
 }

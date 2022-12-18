@@ -1,0 +1,6 @@
+.Cardcomponent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: space-between;
+}
