@@ -1,0 +1,15 @@
+
+body{
+  background-color: #282c34;
+}
+html{
+  font-size: 62.5%;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 40rem;
+  flex-direction: column;
+}
