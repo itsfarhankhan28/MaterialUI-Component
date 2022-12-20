@@ -16,7 +16,8 @@ const ComplexCard = () => {
     <>
       <Card style={{
         width:400,
-        height:400
+        height:400,
+        backgroundColor:'orange'
       }}>
         <CardHeader
         avatar={

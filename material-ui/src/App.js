@@ -13,6 +13,7 @@ import Cardcomponent from './Components/CardComponent';
 import MediaCard from './Components/MediaCard';
 import ComplexCard from './Components/ComplexCard';
 import Appbar from './Components/Appbar';
+import ThemeAppbar from './Components/ThemeAppbar';
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
 
   return (
     <>
-    <Appbar/>
+    {/* <Appbar/> */}
+    <ThemeAppbar/>
     <div className='content'>
       <FormControlLabel control={
         <CheckBox checked={checked}

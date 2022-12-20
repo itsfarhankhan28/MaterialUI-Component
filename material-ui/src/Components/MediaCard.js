@@ -15,7 +15,8 @@ const MediaCard = () => {
         width:400,
         height:400,
         position:'relative',
-        left:1300
+        left:1300,
+        backgroundColor:'orange'
       }}>
         <CardMedia 
         component='img'
