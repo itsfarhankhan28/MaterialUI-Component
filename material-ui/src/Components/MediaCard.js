@@ -11,7 +11,7 @@ import CartIcon from '@mui/icons-material/ShoppingCart'
 const MediaCard = () => {
   return (
     <>
-      <Card style={{
+      <Card elevation={5} style={{
         width:400,
         height:400,
         position:'relative',
