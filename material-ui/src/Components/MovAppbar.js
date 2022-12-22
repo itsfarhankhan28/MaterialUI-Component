@@ -5,6 +5,7 @@ import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import Button from '@mui/material/Button'
 import {ThemeProvider , createTheme} from '@mui/material/styles'
+import MovieIcon from '@mui/icons-material/MovieCreation'
 
 const MovAppbar = () => {
 
@@ -22,6 +23,10 @@ const MovAppbar = () => {
     <ThemeProvider theme={theme}>
       <AppBar position='static'>
         <Toolbar>
+            <MovieIcon style={{
+                width:30,
+                height:30
+            }}/>
             <Typography style={{
                 fontSize:25
             }}>
