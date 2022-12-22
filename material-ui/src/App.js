@@ -14,18 +14,19 @@ import MediaCard from './Components/MediaCard';
 import ComplexCard from './Components/ComplexCard';
 import Appbar from './Components/Appbar';
 import ThemeAppbar from './Components/ThemeAppbar';
+import Page1 from './MoviesWebsite/Page1';
 
 function App() {
 
   // const [state , setState] = useState('')
 
-  const [checked , setChecked] = useState(true)
+  // const [checked , setChecked] = useState(true)
 
   return (
     <>
     {/* <Appbar/> */}
-    <ThemeAppbar/>
-    <div className='content'>
+    {/* <ThemeAppbar/> */}
+    {/* <div className='content'>
       <FormControlLabel control={
         <CheckBox checked={checked}
         onChange={(e)=>setChecked(e.target.checked)} icon={<FavouriteIcon/>} checkedIcon={<FavouriteIcon/>} size="large" color='error' inputProps={{'aria-label':'secondary-checkbox'}}/>
@@ -44,11 +45,12 @@ function App() {
         DELETE
       </Button>
       </ButtonGroup>
-      {/* <p className='btnState'>State:{state}</p> */}
-    </div>
+      <p className='btnState'>State:{state}</p>
+    </div> */}
     {/* <Cardcomponent/> */}
-    <MediaCard/>
-    <ComplexCard/>
+    {/* <MediaCard/>
+    <ComplexCard/> */}
+    <Page1/>
     </>
   )
 }
