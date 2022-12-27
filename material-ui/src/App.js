@@ -15,6 +15,7 @@ import ComplexCard from './Components/ComplexCard';
 import Appbar from './Components/Appbar';
 import ThemeAppbar from './Components/ThemeAppbar';
 import Page1 from './MoviesWebsite/Page1';
+import Listitem from './Components/Listitem';
 
 function App() {
 
@@ -50,7 +51,8 @@ function App() {
     {/* <Cardcomponent/> */}
     {/* <MediaCard/>
     <ComplexCard/> */}
-    <Page1/>
+    {/* <Page1/> */}
+    <Listitem/>
     </>
   )
 }
