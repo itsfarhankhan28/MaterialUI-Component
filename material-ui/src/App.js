@@ -17,6 +17,7 @@ import ThemeAppbar from './Components/ThemeAppbar';
 import Page1 from './MoviesWebsite/Page1';
 import Listitem from './Components/Listitem';
 import Avatarlist from './Components/Avatarlist';
+import GridItem from './Components/GridItem';
 
 function App() {
 
@@ -54,7 +55,8 @@ function App() {
     <ComplexCard/> */}
     {/* <Page1/> */}
     {/* <Listitem/> */}
-    <Avatarlist/>
+    {/* <Avatarlist/> */}
+    <GridItem/>
     </>
   )
 }
