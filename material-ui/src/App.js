@@ -53,10 +53,10 @@ function App() {
     {/* <Cardcomponent/> */}
     {/* <MediaCard/>
     <ComplexCard/> */}
-    {/* <Page1/> */}
+    <Page1/>
     {/* <Listitem/> */}
     {/* <Avatarlist/> */}
-    <GridItem/>
+    {/* <GridItem/> */}
     </>
   )
 }
